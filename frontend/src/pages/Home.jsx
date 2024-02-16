@@ -26,7 +26,7 @@ const Home = () => {
     const fetchPost = async () => {
       setLoading(true);
       try {
-        const res = await fetch("https://imagerator-38yb.vercel.app/api/v1/post", {
+        const res = await fetch("https://imagerator-34py.vercel.app/api/v1/post", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

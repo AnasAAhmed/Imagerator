@@ -19,7 +19,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const res = await fetch("https://imagerator-anas.vercel.app/api/v1/image", {
+        const res = await fetch("https://imagerator-38yb.vercel.app/api/v1/image", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -48,7 +48,7 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
-        const res = await fetch("https://imagerator-anas.vercel.app/api/v1/post",
+        const res = await fetch("https://imagerator-38yb.vercel.app/api/v1/post",
           {
             method: "POST",
             headers: {

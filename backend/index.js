@@ -36,6 +36,6 @@ const startServer = async ()=>{
       console.log(error)
    }  
 }
-//  app.listen(5606,()=> console.log("server run on port http://localhost:5606"))
+ app.listen(5606,()=> console.log("server run on port https://localhost:5606"))
 
 startServer();

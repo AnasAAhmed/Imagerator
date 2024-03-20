@@ -19,7 +19,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const res = await fetch("https://anas-imagerator.vercel.appjs/api/v1/image", {
+        const res = await fetch("https://anas-imagerator.vercel.app/api/v1/image", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
